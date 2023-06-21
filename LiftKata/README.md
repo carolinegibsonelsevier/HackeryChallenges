@@ -17,7 +17,3 @@ What questions do I initially have about creating/ designing the program?
 - How to show random input of desired floor number
 - Once the lift has arrived, can transport person to another floor with control and user input? (so use lift – yes/no)(what floor? User input 1-10) and that input makes the lift move to that floor? (When person sets floor to go to, lift prints floors it is going through as a timer?)
 - Lifts normally go all the way up and then back down to pick up people and drop off, so should there be a switch or iteration for asc/desc? Once it reaches 10, it goes back down to 0 and back up again.
-
-Additional Thoughts
-- What am I doing with objects, what's going on, what's happening, who is what
-- Could potentially use Java Swing for click on action for lift floors/ call button
