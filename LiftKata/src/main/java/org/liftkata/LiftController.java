@@ -10,7 +10,7 @@ public class LiftController {
 	public void starterFloor() {
 		System.out.println("You are on " + starterFloor);
 	}
-	public void destinationFloor () {
+	public void destinationFloor () throws InterruptedException {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Please select the floor you want: ");
 		int desiredFloor = scanner.nextInt();
@@ -19,10 +19,12 @@ public class LiftController {
 		while (currentFloor > desiredFloor) {
 			System.out.println("Currently at floor " + currentFloor);
 			currentFloor--;
+			Thread.sleep(1000);  // Delay of 1 second between floors
 		}
 		while (currentFloor < desiredFloor) {
 			System.out.println("Currently at floor " + currentFloor);
 			currentFloor++;
+			Thread.sleep(1000);
 		}
 
 		System.out.println("Lift has arrived at floor " + desiredFloor);
