@@ -1,7 +1,7 @@
 package org.liftkata;
 
+import static org.liftkata.CallButton.currentFloor;
 import static org.liftkata.Floors.starterFloor;
-import static org.liftkata.Floors.currentFloor;
 
 import java.util.Scanner;
 

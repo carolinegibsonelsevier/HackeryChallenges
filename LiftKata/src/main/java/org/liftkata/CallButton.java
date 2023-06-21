@@ -1,10 +1,10 @@
 package org.liftkata;
 
-import static org.liftkata.Floors.currentFloor;
 
 public class CallButton {
 	static boolean isLiftActive;
 
+	static int currentFloor;
 
 	public void initalLiftStatus() {
 		isLiftActive = false;
